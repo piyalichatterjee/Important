@@ -1,9 +1,8 @@
 Task for next week
--> Finish Bootstrap
--> 2 Website Using css another Bootstrap
+-> CSS practice
+-> SCSS start
 -> Finish git github
--> Harry playlist 37 to 51
--> Css pending topics (transform,transition,animation,variable,boxshadow,media queries)
+-> Yellow playlist 65 to 85 
 -> I will give program
 
 

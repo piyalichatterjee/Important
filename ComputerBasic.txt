@@ -1,0 +1,29 @@
+Hardware -> Machine -> Ram,cpu,monitor,harddisk
+Sofware -> ms office, windows, linux, git
+
+Computer -> Motherboard, CPU/Processor -> Central Processing Unit, RAM -> Random Access Memory, Storage
+
+CPU -> (Intel/AMD) -> Control and Process 
+
+CPU Core -> 8 -> Kaj ke vag kora -> Threads -> core * 2 -> synchronize
+
+RAM -> Memory te store kora
+
+harddisk -> slow
+
+synchronous -> por por -> -> -> -> ses korar por onno kaj krbe
+
+2+2 -> 10min -> 1min -> cpu schedule
+
+asynchronous -> ekta krbe kichu ta kore onno krbe
+
+asynchronous vs synchronous 
+
+javascript -> asynchronous call back
+
+promise , then/catch , aync function, await -> kokhon block krte hobe kokhon unblock krte hobe
+
+front end -> Backend -> API -> Application Programming Interface
+
+front end + backend -> Dependent 
+
