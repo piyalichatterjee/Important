@@ -1,0 +1,85 @@
+VCS -> Version Control System
+
+Open Source -> Free -> Written Code Publicly Avalaible
+
+Git bash / Git terminal / Powershell -> cmd
+
+When a folder starts with a dot then the folder is called hidden folder
+
+.git is a hidden folder
+
+When .git folder is not present in the folder then the git is disabled in the folder
+
+When you enter git init command then .git folder will be created
+
+Git has three Stages : 
+Untracked/Unstage -> Tracked/Stage -> Commit
+
+// Git Command
+
+git status -> Check for status
+
+git init -> For enable the git
+
+git add <file/folder name> -> Add to the staging area
+
+git add . -> Add all file and folder to the staging area
+
+git commit -m "" -> This command will commit the staging file
+
+git log -> Shows the commit
+
+git log --pretty=oneline ->  Print commit oneline
+
+rm -rf .git -> Delete the hidden folder .git or git disabled from the folder
+
+git rm --cached <file/folder name> -> Unstage a file or folder
+
+git reset -> Unstage all the file or folder
+
+git branch -> Show the branch
+
+git clone <Link> -> It is used to download github file to local machine
+
+git remote add origin <Link> -> Git will know where to send the file
+
+git remote -v -> Check if the link is added
+
+git branch -M <branch name> -> Rename the branch name
+
+git push -u origin <branch name> -> Mention the branch and save for upcoming commits
+
+git push -> Push the file in github to default
+
+git diff -> Compares between staging area and unstage area
+
+git diff --cached -> Compares between staging area and last commit
+
+git diff <commit id> <commit id> -> Compares between two commits
+
+.gitignore -> If we mentions any file or folder name in the .gitignore then the file or folder will be ignored by git
+
+git pull -> Download the difference between local git and github
+
+git checkout -b <branch name> -> Create a branch and switch to the branch
+
+git checkout <branch name> -> Switch the branch
+
+git reset --hard <commit id> -> Revert the commit / Change the head in the branch
+
+git revert <commit id> -> Delete the metion commit id
+
+git merge <branch name> -> Merge the branch with single commit
+
+git rebase <branch name> -> Merge the branch with orginal commit
+
+Pull Request -> PR -> Compare two branches checks merge conflict
+
+Merge Conflicts -> You can change your code to resolve the commit
+
+:wq / :q -> terminal e kichu ele erom likhte hobe
+
+
+
+
+
