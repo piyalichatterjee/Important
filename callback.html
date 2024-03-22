@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+<script>
+    // Call Back () => {} , function () {}, function test() {}
+    // Songe songe run korena ekta kichu howar por run kore
+    // JavaScript runs in browser google chrome, safari, mozilla, edge
+    // Browser runs html, css javascript
+
+    // console.log("Hello")
+    // setTimeout(() => {
+    //     console.log("Inside set time out")
+    // },1000)
+    // console.log("Hello world")
+
+    // Promise -> 3 states -> Resolve, Pending , Reject
+
+    // fetch("https://api.github.com/users/abhradippaul")
+    // .then((e) => {
+    //     console.log(e)
+    // }).catch(() => {
+    //     console.log("Error")
+    // })
+
+    // console.log(data)
+    let check = false
+    // jokhon promise ta rakha hoi tokhon resolve run krte hoi
+    // jokhon promise ta rakha hoina tokhon reject run krte hoi
+    const promise1 = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            // reject()
+            if (check) {
+                resolve({ data: "test" })
+            } else {
+                reject({err : "This is my error"})
+            }
+        }, 1000);
+    }) // Promise tyre kora 
+    console.log(promise1)
+    // then use kora hoi jokhon promise ta resolve kora hoi
+    // catch use kora hoi jokhon promise ta reject kora hoi
+    promise1
+        .then((e) => {
+            console.log("This is resolved ", e)
+        })
+        .catch((e) => {
+            console.log(e)
+        })
+    // then catch use kora hoi promise consume korar jonne
+
+</script>
+
+</html>
