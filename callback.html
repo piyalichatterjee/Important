@@ -37,30 +37,95 @@
     // })
 
     // console.log(data)
-    let check = false
-    // jokhon promise ta rakha hoi tokhon resolve run krte hoi
-    // jokhon promise ta rakha hoina tokhon reject run krte hoi
-    const promise1 = new Promise((resolve, reject) => {
-        setTimeout(() => {
-            // reject()
-            if (check) {
-                resolve({ data: "test" })
-            } else {
-                reject({err : "This is my error"})
-            }
-        }, 1000);
-    }) // Promise tyre kora 
-    console.log(promise1)
-    // then use kora hoi jokhon promise ta resolve kora hoi
-    // catch use kora hoi jokhon promise ta reject kora hoi
-    promise1
-        .then((e) => {
-            console.log("This is resolved ", e)
-        })
-        .catch((e) => {
-            console.log(e)
-        })
+    // let check = false
+    // // jokhon promise ta rakha hoi tokhon resolve run krte hoi
+    // // jokhon promise ta rakha hoina tokhon reject run krte hoi
+    // const promise1 = new Promise((resolve, reject) => {
+    //     setTimeout(() => {
+    //         // reject()
+    //         if (check) {
+    //             resolve({ data: "test" })
+    //         } else {
+    //             reject({err : "This is my error"})
+    //         }
+    //     }, 1000);
+    // }) // Promise tyre kora 
+    // console.log(promise1)
+    // // then use kora hoi jokhon promise ta resolve kora hoi
+    // // catch use kora hoi jokhon promise ta reject kora hoi
+    // promise1
+    //     .then((e) => {
+    //         console.log("This is resolved ", e)
+    //     })
+    //     .catch((e) => {
+    //         console.log(e)
+    //     })
     // then catch use kora hoi promise consume korar jonne
+
+
+    // function test(resolve, reject) {
+    //     setTimeout(() => {
+    //         console.log("In set timeout")
+    //         resolve({ data: "test" })
+    //         // reject()
+    //     }, 5000);
+    // }
+
+
+
+    // new Promise(test)
+    // .then((e) => {
+    //     console.log(e)
+    //     return new Promise((resolve, reject) => {
+    //         setTimeout(() => {
+    //             console.log("In side set timeout")
+    //             resolve({ data: "test1" })
+    //             // reject()
+    //         }, 5000);
+    //     })
+    //     // return e.data
+    // }).then((e) => {
+    //     console.log("Again calling resolve ",e)
+    //     return e.length
+    // }).then((e) => {
+    //     console.log("Again calling resolve ",e)
+    // })
+    // then catch and finally channing
+    // .catch((err) => {
+    //     console.log("Promise rejected ", err)
+    // }).finally(() => {
+    //     console.log("Promise finally")
+    // })
+    // fetch("https://api.github.com/users/abhradippaul")
+    //     .then((res) => {
+    //         // console.log(res.json())
+    //         return res.json() // res.json() returns a promise
+    //     }).then((res) => {
+    //         console.log(res) // Now response is a json object
+    //     })
+    //     .catch((err) => {
+    //         console.log("Promise rejected ", err)
+    //     })
+
+    // async and await use for promise handling
+    // jokhon kono promise ke handle korar somoy await use kore hoi tokhon sei parent function e async use krte hoi
+    const test = async() => {
+        const data = await fetch("https://api.github.com/users/abhradippaul")
+        const res = await data.json()
+        console.log(res)
+    }
+    test()
+
+    // Immediately invoked function expression / IIFE
+    // (async() => {
+    //     const data = await fetch("https://api.github.com/users/abhradippaul")
+    //     const res = await data.json()
+    //     console.log(res)
+    // })()
+
+    // async function test1 () {
+    //     console.log("hello")
+    // }
 
 </script>
 
