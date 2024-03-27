@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            background-color: rgb(0, 0, 0);
+        }
+
+        label,
+        h1 {
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <label for="text">Enter a text : </label>
+    <input type="text" id="text">
+    <button>Submit</button>
+    <h1></h1>
+</body>
+<script>
+    // Local storage Session storage Coookie
+    // Local storage session storage front end theke hoi
+    // Cookies front end ba backend
+    
+    // const h1 = document.querySelector("h1")
+    // const button = document.querySelector("button")
+    // const input = document.querySelector("#text")
+    // button.addEventListener("click", () => {
+    //     // localStorage.setItem("name","piyali") // key is name and value is piyali
+    //     h1.textContent = input.value
+    //     localStorage.setItem("value", input.value)
+    // })
+    // const data = localStorage.getItem("value")
+    // input.value = data
+    // create array of objects with name and value
+    const obj = [
+        {
+            name: "Abhradip",
+            value: 22
+        },
+        {
+            name: "Piyali",
+            value: 22
+        }
+    ]
+    localStorage.setItem("object",JSON.stringify(obj)) 
+    // jokhon local storage e kichu set kora hoi tokhon JSON.stringify use kore string e convert kora hoi
+    const data = localStorage.getItem("object")
+    console.log(JSON.parse(data)) 
+    // JSON.parse use kora hoi jokhon local storage theke jinis get kore setake string theke ager obosthai ferano hoi
+    console.log(data)
+</script>
+
+</html>
