@@ -41,22 +41,46 @@
     // const data = localStorage.getItem("value")
     // input.value = data
     // create array of objects with name and value
-    const obj = [
-        {
-            name: "Abhradip",
-            value: 22
-        },
-        {
-            name: "Piyali",
-            value: 22
-        }
-    ]
-    localStorage.setItem("object",JSON.stringify(obj)) 
-    // jokhon local storage e kichu set kora hoi tokhon JSON.stringify use kore string e convert kora hoi
-    const data = localStorage.getItem("object")
-    console.log(JSON.parse(data)) 
-    // JSON.parse use kora hoi jokhon local storage theke jinis get kore setake string theke ager obosthai ferano hoi
-    console.log(data)
+    // const obj = [
+    //     {
+    //         name: "Abhradip",
+    //         value: 22
+    //     },
+    //     {
+    //         name: "Piyali",
+    //         value: 22
+    //     }
+    // ]
+    // localStorage.setItem("object",JSON.stringify(obj)) 
+    // // jokhon local storage e kichu set kora hoi tokhon JSON.stringify use kore string e convert kora hoi
+    // const data = localStorage.getItem("object")
+    // console.log(JSON.parse(data)) 
+    // // JSON.parse use kora hoi jokhon local storage theke jinis get kore setake string theke ager obosthai ferano hoi
+    // console.log(data)
+
+    // Local storage session storage cookies tin tei use kora hoi store korar jonne
+    
+    // Cookie use kora hoi login er information 
+    // size 4KB, expiry thake , frontend and backend dujonei set krte pare, ek site er cookie onno site e access ba set kora jaina
+
+    document.cookie = "test=this is my test; expires=Thu, 29 Mar 2025 12:00:00 UTC;"
+    document.cookie = "test1=this is my test1"
+     // equal to er left e use kora hoi key or name and right e use kora hoi value
+
+    // Local storage size 5-10MB , set korte pare sudhu frontend, expiry thakena, 
+    // localStorage.setItem("key","value")
+    // localStorage.getItem("key")
+    // localStorage.removeItem("key")
+
+    // Session storage size 5MB, ekta ekta tab er jonno hoi, frontend access and set krte hobe, 
+
+    // sessionStorage.setItem("key","value")
+    // sessionStorage.getItem("key")
+    // sessionStorage.removeItem("key")
+
+
+
+
 </script>
 
 </html>
