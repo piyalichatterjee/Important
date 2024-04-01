@@ -1,30 +1,7 @@
 Task for next week
--> Yellow playlist 78 to 87 and 93 to 101
--> Harry playlist 56 to 60
--> SCSS website with media queries
--> Yellow playlist project na dekhe krte hobe
+-> Harry playlist 60 to 72 (age 68 theke 72)
 
+-> Html, Css, JavaScript Website Project (Calculator, Analog Clock, Netflix clone, Tic tac toe) (Short Projects) (.gitignore -> *.css, images)
 
+-> Responsive navbar (Kevin Powell)
 
-
-1.// **Mouse Hover Highlighter**: Create a program where hovering over different elements on the page changes their background color.
-
-2.// **Key Logger**: Develop a script that logs keypress events and displays them in a textarea element.
-
-3. **Drag and Drop Puzzle**: Implement a drag-and-drop puzzle game where users can rearrange pieces to form an image, with success indicated by a message.
-
-4. //**Dynamic Form Validation**: Create a form with multiple input fields and validate them dynamically as the user types, providing feedback on the validity of each field.
-
-5. **Image Carousel with Controls**: Build an image carousel that allows users to navigate through images using both arrow buttons and keyboard arrow keys.
-
-6. **Accordion Menu**: Design an accordion-style menu where clicking on one item expands it while collapsing any previously expanded items.
-
-7. **Tooltip Generator**: Develop a script that dynamically generates tooltips when hovering over specific elements, with customizable content and styles.
-
-8. **Countdown Timer**: Create a countdown timer that starts when a button is clicked and displays the remaining time, updating every second until reaching zero.
-
-9. **Resizable Textarea**: Implement a resizable textarea element that expands vertically as the user types, with a maximum height limit and a scrollbar when needed.
-
-10. **Modal Popup with Animation**: Design a modal popup window that appears with a smooth animation when triggered by a button click, and closes when clicking outside the modal or pressing the escape key.
-
-Each of these programs involves handling different DOM events such as mouse events, keyboard events, form events, and more, providing a variety of challenges for JavaScript developers.
