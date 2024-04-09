@@ -1,7 +1,9 @@
 Task for next week
--> Harry playlist 60 to 72 (age 68 theke 72)
+-> Harry playlist 85 to 88 , 91 to 94
 
--> Html, Css, JavaScript Website Project (Calculator, Analog Clock, Netflix clone, Tic tac toe) (Short Projects) (.gitignore -> *.css, images)
+-> Chai playlist 1 to 7
+
+-> Html, Css, JavaScript Website Project (Tic tac toe, Amazon Ui Clone, (Gym website)(harry 11)) (Short Projects) (.gitignore -> *.css, images)
 
 -> Responsive navbar (Kevin Powell)
 
