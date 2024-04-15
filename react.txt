@@ -1,0 +1,26 @@
+React is a javascript library -> javascript diye react banano (framework)
+
+framework -> restriction -> file, folder || library -> restriction kom ache
+
+React is made by facebook / dom ke manupulate korar jonne / state management library
+
+React, Angular js, vue js, solid js, (Next Js)
+
+React -> Single Page Application // kono onno page e gele website refresh hoina
+
+React website type krte gele node js download krte hoi 
+
+node js hoche offline javascript
+
+react documentation => react.dev
+
+react e eksathe javascript r html lekha hoi -> JSX (html + javascript)
+
+node -> npm (node package manager) / npx (node package executor)
+
+React Project chalu korar command -> 
+1. npx create-react-app <folder_name>
+
+
+React Project run korar jonne -> 
+1. npm start
