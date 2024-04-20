@@ -20,7 +20,20 @@ node -> npm (node package manager) / npx (node package executor)
 
 React Project chalu korar command -> 
 1. npx create-react-app <folder_name>
+2. npx create vite <folder_name>
+3. npx react/vite . -> vite je folder e command run kora holo sei folder ei project ta chalu hoi
 
 
 React Project run korar jonne -> 
 1. npm start
+2. npm run dev -> vite
+
+
+React Project e node_modules folder na thakle -> 
+1.npm i
+
+
+Kivabe Project kora hoi -> 
+1. Besir vag jinis ke component e vag kora hoi
+2. Ek ekta javascript file ke component bola hoi
+3. Age component 2 types -> Class based component, Function based component (Function)
