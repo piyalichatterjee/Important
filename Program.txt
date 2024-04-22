@@ -1,9 +1,9 @@
 Task for next week
--> Harry playlist 85 to 88 , 91 to 94
 
--> Chai playlist 1 to 7
+Chai -> 8 to 15
 
--> Html, Css, JavaScript Website Project (Tic tac toe, Amazon Ui Clone, (Gym website)(harry 11)) (Short Projects) (.gitignore -> *.css, images)
+tech gun -> 1 to 7
 
--> Responsive navbar (Kevin Powell)
+Short Project -> Spotify clone (harry 1), Myntra clone (harry 13) 
 
+practice -> Great Stack (2,3,10)

@@ -30,8 +30,10 @@ React Project run korar jonne ->
 
 
 React Project e node_modules folder na thakle -> 
-1.npm i
+1. npm i
 
+React Server bondho korar jonne -> 
+1. control c
 
 Kivabe Project kora hoi -> 
 1. Besir vag jinis ke component e vag kora hoi
