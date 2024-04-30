@@ -1,9 +1,13 @@
 Task for next week
 
-Chai -> 8 to 15
+Chai -> 16 to 20
 
-tech gun -> 1 to 7
+tech gun -> 8 to 11
 
-Short Project -> Spotify clone (harry 1), Myntra clone (harry 13) 
+harry react -> 105 to 106
 
-practice -> Great Stack (2,3,10)
+harry javascript -> 22, 26, 30, 39, 40, 50, 73, 84, 85, 93
+
+Short Project -> Spotify clone (harry 1)
+
+practice -> Great Stack (10)
