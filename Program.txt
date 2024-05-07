@@ -1,6 +1,5 @@
 Task for next week
 
-Chai -> 16 to 20
 
 tech gun -> 8 to 11
 
@@ -8,6 +7,35 @@ harry react -> 105 to 106
 
 harry javascript -> 22, 26, 30, 39, 40, 50, 73, 84, 85, 93
 
-Short Project -> Spotify clone (harry 1)
+String Practice -> 
 
-practice -> Great Stack (10)
+
+1. **Concatenation Question:**
+   How would you combine two strings `str1` and `str2` to create a single string in JavaScript?
+
+2. **String Length Question:**
+   How can you determine the length of a string `str` using a JavaScript method?
+
+3. **Substring Extraction Question:**
+   Describe how you would extract a substring of length `n` starting at index `start` from a given string `str`.
+
+4. **String Splitting Question:**
+   Explain how you would split a string `str` into an array of substrings based on a specified `delimiter` in JavaScript.
+
+5. **String Searching Question:**
+   How can you check if a particular substring `subStr` exists within a string `str` in JavaScript?
+
+6. **String Replacement Question:**
+   Describe a method to replace all occurrences of a substring `oldSubStr` with `newSubStr` within a string `str` using JavaScript.
+
+7. **String Comparison Question:**
+   Explain the difference between `===` and `==` when used to compare two strings in JavaScript.
+
+8. **String Case Conversion Question:**
+   How would you convert a string `str` to uppercase and lowercase in JavaScript?
+
+9. **Trimming Question:**
+   Describe how you would remove leading and trailing whitespace characters from a string `str` using JavaScript.
+
+10. **String Reversal Question:**
+    Explain how you can reverse a string `str` in JavaScript.
