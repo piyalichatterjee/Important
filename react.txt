@@ -20,8 +20,8 @@ node -> npm (node package manager) / npx (node package executor)
 
 React Project chalu korar command -> 
 1. npx create-react-app <folder_name>
-2. npx create vite <folder_name>
-3. npx react/vite . -> vite je folder e command run kora holo sei folder ei project ta chalu hoi
+2. npm create vite <folder_name>
+3. npx react/npm vite . -> vite je folder e command run kora holo sei folder ei project ta chalu hoi
 
 
 React Project run korar jonne -> 
