@@ -1,41 +1,55 @@
 Task for next week
 
 
-tech gun -> 11 to 12
+tech gun -> 13 to 16
 
-harry react -> 7 to 9
+harry react -> 10 to 15
+
+chai javascript -> 21  to 25
 
 harry javascript -> 26, 39, 40, 50, 73, 84, 85, 93
 
-GreatStack -> 7, 9, 13
+GreenStack -> 14, 15, 19, 23
+
+Peding todo list -> english , pending
+
+
+Function Practice ->
+
+
+1. **Sum of Two Numbers**
+   - Write a function `sum(a, b)` that returns the sum of two numbers `a` and `b`.
+
+2. **Check Even or Odd**
+   - Create a function `isEven(num)` that returns `true` if the given number `num` is even and `false` if it is odd.
+
+3. **Find the Maximum of Three Numbers**
+   - Write a function `maxOfThree(a, b, c)` that returns the largest of three numbers `a`, `b`, and `c`.
+
+4. **Factorial of a Number**
+   - Create a function `factorial(n)` that returns the factorial of a number `n`.
+
+5. **Palindrome Check**
+   - Write a function `isPalindrome(str)` that checks if a given string `str` is a palindrome (reads the same forward and backward).
+
+6. **Fibonacci Sequence**
+   - Create a function `fibonacci(n)` that returns the `n`-th number in the Fibonacci sequence.
+
+7. **Array Sum**
+   - Write a function `sumArray(arr)` that takes an array of numbers `arr` and returns the sum of all the elements.
+
+8. **Find the Longest Word**
+   - Create a function `longestWord(sentence)` that takes a string `sentence` and returns the longest word in the sentence.
+
+9. **Prime Number Check**
+   - Write a function `isPrime(num)` that returns `true` if `num` is a prime number and `false` otherwise.
+
+10. **Flatten Nested Arrays**
+    - Create a function `flattenArray(arr)` that takes a nested array `arr` and returns a single, flattened array.
+
 
 
 Array Practice ->
-
-
-### 1. Array Initialization and Basic Operations
-**Question:**
-Create an array of your favorite fruits. Perform the following operations:
-1. Add a new fruit to the end of the array.
-2. Remove the last fruit from the array.
-3. Add a new fruit to the beginning of the array.
-4. Remove the first fruit from the array.
-
-### 2. Array Iteration
-**Question:**
-Write a function that takes an array of numbers and prints each number to the console.
-
-### 3. Array Mapping
-**Question:**
-Given an array of numbers, return a new array where each number is squared.
-
-### 4. Array Filtering
-**Question:**
-Write a function that takes an array of numbers and returns a new array containing only the even numbers.
-
-### 5. Array Reducing
-**Question:**
-Create a function that takes an array of numbers and returns the sum of all the numbers.
 
 ### 6. Array Finding
 **Question:**
@@ -45,23 +59,8 @@ Write a function that takes an array of numbers and a target number, and returns
 **Question:**
 Given an array of numbers, write a function that returns a new array with the numbers sorted in ascending order.
 
-### 8. Array Concatenation
-**Question:**
-Write a function that takes two arrays and returns a new array that is the concatenation of the two arrays.
-
-### 9. Array Slicing
-**Question:**
-Given an array of numbers, write a function that returns a new array containing only the first three elements of the original array.
-
-### 10. Array Splicing
-**Question:**
-Write a function that takes an array of numbers and removes the second and third elements, returning the modified array.
-
-
-
 
 String Practice -> 
-
 
 3. **Substring Extraction Question:**
    Describe how you would extract a substring of length `n` starting at index `start` from a given string `str`.
