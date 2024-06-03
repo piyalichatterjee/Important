@@ -1,17 +1,17 @@
 Task for next week
 
 
-tech gun -> 13 to 16
+harry notun react -> 105 to 108 (sigma)
 
-harry react -> 10 to 15
+chai javascript -> 25 to 30
 
-chai javascript -> 21  to 25
-
-harry javascript -> 26, 39, 40, 50, 73, 84, 85, 93
-
-GreenStack -> 14, 15, 19, 23
+Javascript Program (chatgpt) -> 
+https://chatgpt.com/share/e5fdb5ed-f599-401f-ab41-65264035b5eb
 
 Peding todo list -> english , pending
+
+
+
 
 
 Function Practice ->
