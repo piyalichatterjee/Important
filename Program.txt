@@ -1,17 +1,12 @@
 Task for next week
 
 
-harry notun react -> 105 to 108 (sigma)
+harry notun react -> 109 to 113 (sigma)
 
-chai javascript -> 25 to 30
+chai javascript -> 31 to 36
 
 Javascript Program (chatgpt) -> 
 https://chatgpt.com/share/e5fdb5ed-f599-401f-ab41-65264035b5eb
-
-Peding todo list -> english , pending
-
-
-
 
 
 Function Practice ->
