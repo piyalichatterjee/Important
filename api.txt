@@ -1,0 +1,13 @@
+Full form of API -> Application Programming Interface
+
+If frontend needs to communicate with backend then it needs API
+
+https://www.youtube.com (domain) -> DNS (Domain Name System) -> ip address (Sever) -> youtube home page(Frontend)
+
+Website -> Static, Dynamic
+
+Api call -> 
+
+https://api.github.com/users/abhradippaul(domain) -> DNS -> IP address -> Information(Backend) (JSON)
+
+Api call -> GET,POST,PUT/PATCH,DELETE -> Method
