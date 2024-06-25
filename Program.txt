@@ -1,9 +1,13 @@
 Task for next week
 
 
-harry yellow playlist -> 52 to 59 and 66 to 67
+harry yellow playlist -> 60 to 62
 
-harry sigma playlist -> 75 to 76
+harry sigma -> 113 to 114
+
+chai or code (javascript) -> 37 to 41
+
+chai or code (react) -> 1 to 9
 
 
 
