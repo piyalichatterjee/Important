@@ -1,0 +1,42 @@
+import Test from "./Test";
+import { useEffect, useState, useMemo, useCallback, memo } from "react";
+
+function App() {
+  const [counter, setCounter] = useState(0);
+  const [count, setCount] = useState(1);
+
+  // useMemo useCallback memo
+  // const expensiveFunction = useCallback(() => {
+  //   console.log("Calculating...");
+  //   let result = 0;
+  //   for (let i = 0; i < 1000000000; i++) {
+  //     result += count;
+  //   }
+  //   return result;
+  // }, [count]);
+
+  // // const value = expensiveFunction(0);
+  // // console.log(value);
+
+  // // use memo use kora hoi boro calculation er jonno
+  // const memoizedValue = useMemo(() => expensiveFunction(), [count]);
+  // console.log(memoizedValue);
+
+  return (
+    <div className="text-4xl">
+      App
+      <Test counter={counter} />
+      <button onClick={() => setCounter((prev) => prev + 1)}>
+        Increment {counter}
+      </button>
+      <button onClick={() => setCounter((prev) => prev - 1)}>
+        Decrement {counter}
+      </button>
+      <button onClick={() => setCount((prev) => prev + 1)}>Change Value</button>
+    </div>
+  );
+}
+
+// memorize
+
+export default memo(App);
