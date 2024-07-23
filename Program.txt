@@ -1,65 +1,8 @@
 Task for next week
 
 
-harry sigma -> 113, 114, 115, 117, 118 
-
-chai or code (javascript) -> 39 to 41
-
-chai or code (react) -> 10 to 12
 
 React Project -> https://youtu.be/309beMyhXtg?si=P8JTszDHls8UAlf2
 
-
-
-Function Practice ->
-
-
-1. **Sum of Two Numbers**
-   - Write a function `sum(a, b)` that returns the sum of two numbers `a` and `b`.
-
-2. **Check Even or Odd**
-   - Create a function `isEven(num)` that returns `true` if the given number `num` is even and `false` if it is odd.
-
-3. **Find the Maximum of Three Numbers**
-   - Write a function `maxOfThree(a, b, c)` that returns the largest of three numbers `a`, `b`, and `c`.
-
-4. **Factorial of a Number**
-   - Create a function `factorial(n)` that returns the factorial of a number `n`.
-
-5. **Palindrome Check**
-   - Write a function `isPalindrome(str)` that checks if a given string `str` is a palindrome (reads the same forward and backward).
-
-6. **Fibonacci Sequence**
-   - Create a function `fibonacci(n)` that returns the `n`-th number in the Fibonacci sequence.
-
-7. **Array Sum**
-   - Write a function `sumArray(arr)` that takes an array of numbers `arr` and returns the sum of all the elements.
-
-8. **Find the Longest Word**
-   - Create a function `longestWord(sentence)` that takes a string `sentence` and returns the longest word in the sentence.
-
-9. **Prime Number Check**
-   - Write a function `isPrime(num)` that returns `true` if `num` is a prime number and `false` otherwise.
-
-10. **Flatten Nested Arrays**
-    - Create a function `flattenArray(arr)` that takes a nested array `arr` and returns a single, flattened array.
-
-
-
-Array Practice ->
-
-### 6. Array Finding
-**Question:**
-Write a function that takes an array of numbers and a target number, and returns the first index where the target number is found. If the target number is not found, return -1.
-
-### 7. Array Sorting
-**Question:**
-Given an array of numbers, write a function that returns a new array with the numbers sorted in ascending order.
-
-
-String Practice -> 
-
-3. **Substring Extraction Question:**
-   Describe how you would extract a substring of length `n` starting at index `start` from a given string `str`.
 
 
