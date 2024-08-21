@@ -1,0 +1,69 @@
+import { useEffect, useState } from "react";
+
+function App() {
+  // https://api.github.com/users/abhradippaul
+  const [userInfo, setUserInfo] = useState({});
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState("");
+
+  useEffect(() => {
+    // async function fetchDataByAsyncAwait() {
+    //   try {
+    //     const response = await fetch(
+    //       "https://api.github.com/users/abhradippaul"
+    //     );
+    //     const data = await response.json();
+    //     setUserInfo(data);
+    //   } catch (err) {
+    //     console.log(err);
+    //   }
+    // }
+    // fetchDataByAsyncAwait();
+    // function fetchDataByThenCatch() {
+    //   fetch("https://api.github.com/users/abhradippaul")
+    //     .then((res) => {
+    //       return res.json();
+    //     })
+    //     .then((data) => {
+    //       setUserInfo(data)
+    //     })
+    //     .catch((err) => {
+    //       console.log(err);
+    //     });
+    // }
+    // fetchDataByThenCatch();
+    async function fetchData() {
+      try {
+        await new Promise((res, rej) => {
+          setTimeout(() => {
+            rej("Rejected");
+            console.log("Data recieved");
+          }, 3000);
+        });
+      } catch (err) {
+        setError(err);
+      } finally {
+        setIsLoading(false);
+      }
+    }
+    fetchData();
+  }, []);
+
+  return isLoading ? (
+    <h1>Loading....</h1>
+  ) : (
+    <div>
+      {/* <h1>Hello, {userInfo.name}</h1>
+      <img src={userInfo.avatar_url} alt="image" />
+      <p>Location is {userInfo.location}</p>
+      <p>Following {userInfo.following}</p>
+      <p>Public Repo {userInfo.public_repos}</p>
+      <p>Email {userInfo.blog}</p> */}
+      <p>Welcome to my React App!</p>
+      <p>I am fetching data from GitHub API.</p>
+      {error && <h1>{error}</h1>}
+    </div>
+  );
+}
+
+export default App;
